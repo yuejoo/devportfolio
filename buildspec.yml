@@ -8,5 +8,4 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  files:
-    - gulpfile.js
+  base-directory: $CODEBUILD_SRC_DIR
